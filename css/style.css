@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* SCROLL PERSONALIZADO  */
+
+body::-webkit-scrollbar {
+    width: 12px;  
+
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #c4c2c2;   
+
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #8b8b8d;   
+    border-radius: 20px;  
+
+  }
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 5%;
+}
+
+.logo {
+    width: 220px;
+    height: 60px;
+    background: url(../imgs/logo-edit-2.jpg) center/cover no-repeat;
+    float: left;
+    font-size: 0;
+  
+}
+
+.btn-menu {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-image: linear-gradient(to right, #4255a2 , #fe0000 );
+    color: #ffffff;
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.menu i {
+    font-size: 2.5em;
+    color: #ffffff;
+    cursor: pointer;
+    float: right;
+    margin: 20px 20px 0 0;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000d7;
+    display: none;
+}
+
+.menu ul {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 25px;
+}
+
+.menu li a {
+    padding-bottom: 5px;
+    font-size: 1.6em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu li a:hover {
+    border-bottom: 3px solid #fe0000;
+    transition: .5s;
+}
+
+.bg {
+    width: 100%;
+    padding: 5% 5% 15% 5%;
+    float: left;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../imgs/img-bg.jpg) center/cover fixed no-repeat;
+}
+
+
+.titles {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.titles h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.titles h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8em;
+}
+
+
+/* CONTEÚDO PRINCIPAL, MAIN DA PÁGINA. */
+
+.principal {
+    width: 100%;
+    padding: 2% 5%;
+    float: left;
+}
+
+.principal img {
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 25px;
+}
+
+.servicos {
+    padding: 0 5%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.servicos h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.servicos h4 {
+    margin-bottom: 25px;
+}
+
+.servicos p {
+    font-size: 1em;
+    line-height: 2em;
+}
+
+/* SEGUNDA PÁGINA */
+
+.servicos-descricao {
+    width: 100%;
+    padding: 3% 5%;
+    float: left;
+}
+
+.servicos-descricao h2 {
+    font-size: 2em;
+    font-weight: 550;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.servicos-descricao img {
+   border-radius: 5px 5px 0 0;
+   border: 1px solid black;
+   margin-bottom: 25px;
+}
+
+#produtos {
+   width: 100%; 
+   padding: 0 5%;
+   float: left;
+   margin-bottom: 20px;
+}
+
+#produtos h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+#produtos h4 {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+#produtos p {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+
+/* MAPA  DE LOCALIZAÇÃO */
+
+
+.mapa {
+    width: 100%;
+    float: left;
+    padding: 3%  0 0 0;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* RODAPÉ E REDES SOCIAIS */
+
+.rodape {
+    width: 100%;
+    padding: 3% 5%;
+    float: left;
+    background-image: linear-gradient(to right, #4255a2 , #fe0000);
+    text-align: center;
+}
+
+.social-icons  {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.social-icons i {
+   margin-right: 10px;
+   cursor: pointer;
+   color: #c4c2c2;
+}
+
+.social-icons i:nth-child(3) {
+   margin-right: 0;
+}
+
+.social-icons i:hover {
+    color: #ffffff;
+}
+
+.rodape p {
+    color: #c4c2c2;
+}
+
