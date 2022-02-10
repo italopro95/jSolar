@@ -359,3 +359,73 @@ body::-webkit-scrollbar-thumb {
     color: #c4c2c2;
 }
 
+/*  TABLETS E DISPOSITIVOS MÓVEIS */
+
+
+@media screen and (min-width: 768px) {
+
+.titles h2 {
+    font-size: 3em;
+} 
+
+.titles h3 {
+    font-size: 1.5em;
+}
+
+.principal {
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 1.6em;
+}
+
+.servicos-descricao  {
+   text-align: center;
+   padding: 0 10%;
+}
+
+.servicos-descricao h2 {
+    text-align: left;
+}
+
+#produtos {
+    text-align: left;
+}
+
+.quem-somos, .contato {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.quem-somos h2, .quem-somos p, .contato h2, .contato h3, .contatos {
+    text-align: left;
+}
+
+.contato iframe {
+    padding: 0;
+}
+
+.trabalhos h3 {
+   text-align: left;
+}
+
+@media  screen and (min-width: 960px) {
+
+.wi {
+   width: 48%;
+   float: left;
+  
+}
+
+.wi:nth-child(2) {
+    margin-left: 4%;
+}
+
+.wi:nth-child(3) {
+   float: none;
+}
+    
+}
+
+}
