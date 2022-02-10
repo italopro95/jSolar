@@ -191,9 +191,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .servicos-descricao img {
-   border-radius: 5px 5px 0 0;
-   border: 1px solid black;
-   margin-bottom: 25px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #000000;
+    margin-bottom: 25px;
 }
 
 #produtos {
@@ -218,6 +218,97 @@ body::-webkit-scrollbar-thumb {
 #produtos p {
     margin-bottom: 25px;
     text-align: left;
+}
+
+/* QUEM SOMOS? */
+
+.quem-somos {
+    width: 100%;
+    padding: 3% 5%;
+    float: left;
+}
+
+.quem-somos h2 {
+    font-size: 2em;
+    font-weight: 550;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+
+.quem-somos p {
+    margin-bottom: 25px;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+
+.trabalhos h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.trabalhos img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 1px  #000000;
+}
+
+.trabalhos p {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* CONTATO */
+
+.contato {
+    width: 100%;
+    padding: 3% 5%;
+    float: left;
+}
+
+.contato h2 {
+    font-size: 2em;
+    font-weight: 550;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.contato h3 {
+    font-size: 1.3em;
+    font-weight: 550;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.contato iframe {
+    width: 100%;
+    height: 400px;
+    float: left;
+    padding: 3%;
+}
+
+.contatos {
+   width: 100%;
+   float: left;
+   margin-top: 30px;
+}
+
+.contatos ul li {
+    margin-bottom: 15px;
+}
+
+.contatos ul li a i{
+   width: 50px;
+   font-size: 2em;   
+   color: #000000;
+  
+}
+
+.contato a {
+    color: black;
 }
 
 
