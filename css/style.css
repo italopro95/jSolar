@@ -146,6 +146,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     padding: 2% 5%;
     float: left;
+    text-align: center;
 }
 
 .principal img {
@@ -175,6 +176,8 @@ body::-webkit-scrollbar-thumb {
     line-height: 2em;
 }
 
+
+
 /* SEGUNDA PÁGINA */
 
 .servicos-descricao {
@@ -200,7 +203,6 @@ body::-webkit-scrollbar-thumb {
    width: 100%; 
    padding: 0 5%;
    float: left;
-   margin-bottom: 20px;
 }
 
 #produtos h3 {
@@ -235,6 +237,9 @@ body::-webkit-scrollbar-thumb {
     color: #000000;
 }
 
+.trabalhos {
+    width: 100%;
+}
 
 .quem-somos p {
     margin-bottom: 25px;
@@ -250,7 +255,13 @@ body::-webkit-scrollbar-thumb {
     color: #000000;
 }
 
+.padd-trabalhos {
+    width: 100%;
+    padding: 0 10%;
+}
+
 .trabalhos img {
+    width: 100%;
     border-radius: 5px 5px 0 0;
     margin-bottom: 25px;
     box-shadow: 1px 2px 1px  #000000;
@@ -312,6 +323,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
 /* MAPA  DE LOCALIZAÇÃO */
 
 
@@ -325,6 +337,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 400px;
 }
+
+
 
 /* RODAPÉ E REDES SOCIAIS */
 
@@ -359,6 +373,8 @@ body::-webkit-scrollbar-thumb {
     color: #c4c2c2;
 }
 
+
+
 /*  TABLETS E DISPOSITIVOS MÓVEIS */
 
 
@@ -380,21 +396,47 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.6em;
 }
 
+.wi {
+    width: 49%;
+    float: left;
+}
+
+.wi:nth-child(2) {
+    margin-left: 2%;
+}
+
+.wi:nth-child(3) {
+    float: none;
+}
+
+.wi-servicos-1, .wi-servicos-2, .wi-servicos-3, .wi-servicos-4, .wi-servicos-5, .wi-servicos-6 {
+    width: 49%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.wi-servicos-2, .wi-servicos-4, .wi-servicos-6 {
+    margin-left: 2%;
+}
+
 .servicos-descricao  {
-   text-align: center;
-   padding: 0 10%;
+    text-align: center;
+    padding: 3% 5%;
 }
 
 .servicos-descricao h2 {
+    width: 100%;
+    float: left;
     text-align: left;
 }
+
 
 #produtos {
     text-align: left;
 }
 
 .quem-somos, .contato {
-    padding: 3% 10%;
+    padding: 3% 5%;
     text-align: center;
 }
 
@@ -408,6 +450,28 @@ body::-webkit-scrollbar-thumb {
 
 .trabalhos h3 {
    text-align: left;
+}
+
+.padd-trabalhos {
+    padding: 0;
+}
+
+.padd-trabalhos img {
+    float: left;
+}
+
+.padd-trabalhos-img {
+    width: 49%;
+    float: left;
+    margin-left: 2%;
+
+   
+}
+
+.padd-trabalhos-img:nth-child(1){
+    margin-left: 0;
+}
+
 }
 
 @media  screen and (min-width: 960px) {
@@ -428,4 +492,3 @@ body::-webkit-scrollbar-thumb {
     
 }
 
-}
