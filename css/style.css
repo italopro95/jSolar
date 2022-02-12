@@ -43,6 +43,20 @@ body::-webkit-scrollbar-thumb {
 
   }
 
+.btn-whats {
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 60px;
+    color: #ffffff;
+    background-color: #249B16;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+}  
+
 /* CABEÇALHO */
 
 .cabecalho {
