@@ -370,7 +370,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .social-icons i {
-   margin-right: 10px;
+   margin-right: 40px;
    cursor: pointer;
    color: #c4c2c2;
 }
@@ -488,6 +488,8 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+/* TABLETS */
+
 @media  screen and (min-width: 960px) {
 
 .wi {
@@ -504,5 +506,49 @@ body::-webkit-scrollbar-thumb {
    float: none;
 }
     
+}
+
+
+/*  PC E TELEVISORES  */
+
+
+@media screen and (min-width: 1280px) {
+
+   .btn-menu {
+       display: none;
+   }
+
+   .menu {
+       width: auto;
+       position: static;
+       display: flex;
+       background-color: initial;
+       float: right;
+       
+   }
+
+   #close {
+       display: none;
+   }
+
+   .menu ul {
+       float: right;
+       text-align: right;
+   }
+
+   .menu li  {
+       color: black;
+       float: left;
+       padding: 0;
+       margin: 0;
+   }
+
+   .menu li a {
+       font-size: 1.1em;
+       color: #6c6e72;
+       margin-left: 40px;
+       text-align: initial;
+   }
+
 }
 
