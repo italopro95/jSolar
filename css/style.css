@@ -53,8 +53,8 @@ body::-webkit-scrollbar-thumb {
     color: #ffffff;
     background-color: #249B16;
     position: fixed;
-    bottom: 80px;
-    right: 0;
+    bottom: 130px;
+    right: 10px;
 }  
 
 /* CABEÇALHO */
