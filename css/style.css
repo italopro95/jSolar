@@ -482,7 +482,7 @@ body::-webkit-scrollbar-thumb {
    
 }
 
-.padd-trabalhos-img:nth-child(1){
+.padd-trabalhos-img:nth-child(1), .padd-trabalhos-img:nth-child(3){
     margin-left: 0;
 }
 
